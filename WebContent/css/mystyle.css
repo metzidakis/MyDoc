@@ -1,0 +1,91 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+  color: lightblue;
+  background-image: url("TopHeart.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+/*
+
+footer {
+	background-color: #082457;
+	color: #fff;
+	padding: 20px 0;
+}
+
+*/
+
+
+/* -- End Sticky footer -- */
+.main{
+	margin-top: 50px;
+}
+/* navbar stuff */
+.navbar-inverse {
+  background-image: url("TopHeart.jpg");
+  background-color: black;
+  color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: Left;
+  /*height: 50px;*/
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color:#0877FF;
+	color: lightblue;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus {
+		background-color: #A66EFF;
+		color: color: lightblue;
+}
+
+#loginbtn, #registerbtn { cursor: pointer; }
+
+/* End navbar stuff */
+
+/* brand-image stuff */
+.brand-image {
+	padding-top: 10px;
+}
+/* Media query to center brand image in small screens */
+@media screen and (max-width: 780px) {
+	.brand-image { text-align: center; }
+	.brand-image img {
+		display: inline-block;
+	}
+}
+
+.row-content {
+	padding: 30px 0;
+}
+
+#product-details th {
+	vertical-align: middle;
+}
+
+#product-details td {
+	white-space: normal;
+	word-wrap: break-word;
+}

@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- <img src="Picture.jpg" alt="Picture" width="100%" height="100%"> -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content
+must come *after* these tags -->
+
+<title>MyDoc - Find The best Doctor</title>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/mystyle.css">
+<style>
+body  {
+    background-image: url("Picture.jpg");
+		background-size: cover;
+    background-color: #white;
+}
+.bg-1 {
+    background-color: #white; /* Green */
+    color: #white;
+}
+.jumbotron {
+	background-color: #ffffff;
+    opacity: .4;
+}
+.caption-one {
+			text-align: left;
+			border-radius: 30px;
+      background-color: black;
+			color: white;
+      opacity: 0.85;
+      /*padding-left: 0%;*/
+      margin-right: 1%;
+			margin-left: 1%;
+			padding-top: 1%;
+      padding-bottom: 1%;
+			padding-left: 1%;
+      padding-right: 1%;
+      /*width: 40%;*/
+}
+.caption-two {
+			text-align: left;
+			border-radius: 30px;
+      background-color: black;
+			color: white;
+      opacity: 0.6;
+      margin-right: 1%;
+			margin-left: 1%;
+			padding-top: 1%;
+      padding-bottom: 1%;
+			padding-left: 5%;
+      padding-right: 50%;
+      /*width: 40%;*/
+}
+.lichanger {
+    background-color:#646464;
+    color: #ff7225;
+}
+
+.rating-block{
+	background-color:#646464;
+  color: #ff7225;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+}
+.review-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px;
+	border-radius:3px;
+	margin-bottom:15px;
+}
+.review-block-name{
+	font-size:12px;
+	margin:10px 0;
+}
+.review-block-date{
+	font-size:12px;
+}
+.review-block-rate{
+	font-size:13px;
+	margin-bottom:15px;
+}
+.review-block-title{
+	font-size:15px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+.review-block-description{
+	font-size:13px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a class="navbar-brand" href="MyDoc.html">MyDoc</a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+
+<li class="inactive"><a href="MyDoc.html">About Us</a></li>
+<li class="inactive"><a href="MyDoc.html">How it Works</a></li>
+<li class="inactive"><a href="MyDoc.html">Contact Us</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+  <li class="inactive"><a href="MyAccount.html"><span class="glyphicon glyphicon-user"></span>&nbsp;My Account</a></li>
+  <li class="inactive"><a href="" id="logout" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+<br>
+<br>
+<br>
+
+<div class="caption-two";style="text-align:left">
+<h1 style="text-align:left">Member Profile</h1>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="caption-one";style="text-align:left">
+  <div class="row">
+        <div class="col-md-2">
+  <h3>UserName</h3>
+          <br>
+          <a href="/users" class="pull-right"><img title="profile image" class="img-thumbnail"  src="RandomGirl.jpg"></a>
+          <a href="#" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-thumbs-up"></span> This person is trusted</a>
+          <a href="#" class="btn btn-primary btn-danger"><span class="glyphicon glyphicon-thumbs-down"></span> This person is not trusted</a>
+        </div>
+       <div class="col-md-3">
+        <br>
+         <br>
+         <br>
+         <br>
+         <ul class="list-group">
+             <li class="list-group-item text-muted lichanger text-center" contenteditable="false">Profile</li>
+             <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Joined</strong></span> 2.13.2014</li>
+             <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Real name</strong></span> Diana Prince</li>
+             <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Gender</strong></span> Female</li>
+             <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Region: </strong></span> Athens</li>
+             </ul>
+       </div>
+       <div class="col-md-3 center">
+          <br>
+          <br>
+          <br>
+          <br>
+       <ul class="list-group ">
+          <li class="list-group-item text-muted lichanger text-center">Activity <i class="fa fa-dashboard fa-1x"></i> </li>
+          <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Comments</strong></span> 25</li>
+          <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Ratings</strong></span> 47</li>
+          <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Trusted by</strong></span> 56</li>
+          <li class="list-group-item text-right lichanger"><span class="pull-left"><strong class="">Negative votes</strong></span> 2</li>
+      </ul>
+      </div>
+      <div class="col-md-4">
+          <br>
+         <br>
+         <br>
+         <br>
+				<div class="rating-block">
+					<h4>Average user rating</h4>
+					<h2 class="bold padding-bottom-7">4.3 <small>/ 5</</small></h2>
+					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</button>
+					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</button>
+					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</button>
+          <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</button>
+					<button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+    </div>
+  </div>
+  </div>
+<div class="container ">
+
+  <div class="row ">
+  			<div class="col-md-12 ">
+              <h2 class="caption-one"; style="text-align:center">Comments History<h2>
+  				<div class="caption-one";>
+  					<div class="row">
+  						<div class="col-md-2" "insert">
+  							<img src="RandomGirl.jpg" class="img-thumbnail" width="70%" height="40%">
+  							<div class="review-block-name"><a href="#"> Diana Prince</a></div>
+  							<div class="review-block-date">June 3, 2017<br/>1 day ago</div>
+  						</div>
+  						<div class="col-md-10">
+  							<div class="review-block-rate">
+  								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  								<button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  								<button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  							</div>
+  							<div class="review-block-title">Good pediatrician</div>
+  							<div class="review-block-description">Good pediatrician my son liked him. I ranked him with 3 stars because of the price!</div>
+  						</div>
+  					</div>
+  					<hr/>
+  					<div class="row">
+  						<div class="col-md-2" >
+  							<img src="RandomGirl.jpg" class="img-thumbnail" width="70%" height="40%">
+  							<div class="review-block-name"><a href="#"> Diana Prince</a></div>
+  							<div class="review-block-date">June 2, 2017<br/>2 day ago</div>
+  						</div>
+  						<div class="col-md-10">
+  							<div class="review-block-rate">
+  								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+                  <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+                  <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+  								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  								</button>
+  							</div>
+  							<div class="review-block-title">Exelent Gynaecologist!!!</div>
+  							<div class="review-block-description">Girls he is the ONE! Gentleman with G kapital! Every one of you should pay him a visit!!<span class="glyphicon glyphicon-heart"></span></div>
+  						</div>
+  					</div>
+  					<hr/>
+      </div>
+    </div>
+
+</div>
+<center>
+<a href="#" class="btn btn-lg btn-info"><span class="glyphicon glyphicon-share-alt"></span> SHOW MORE PERSON'S COMMENTS</a>
+</center>
+</div>
+
+<!-- footer -->
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+	<br>
+<p class="text-center">&copy; Copyright 2017 MyDoc</p>
+</div>
+</div>
+</div>
+
+</footer>
+<!-- End footer -->
+
+<!-- JavaScript files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
